@@ -8,7 +8,7 @@ Beautiful Cities - Website By Lubna Araman
 
 This website consists of:
 * 4 webpages which are:
-	1. index.html --> homwpage
+	1. index.html --> homepage
 	2. seoul.html --> talks about Seoul city
 	3. valletta.html --> talks about Valletta city
 	4. santorini.html --> talks about Santorini city
