@@ -1,0 +1,93 @@
+$headerpadding: 35px;
+$MyColor: #4d4f52;
+/*----------------------header style---------------------*/
+#myheader{
+  background-image: url(pictures/header.jpg);
+  background-size:  cover;
+  background-position: center top;
+  margin-bottom:0px;
+
+   h1{
+      padding-left: $headerpadding;
+      color:  $MyColor;
+    }
+
+
+
+}
+/*----------------------Navbar style--------------------*/
+.navbar-custom {
+    background-color: $MyColor;
+
+    .navbar-nav{
+      padding-left: $headerpadding+5;
+      .nav-link{
+        color: rgba(255,255,255,.5);
+
+      }
+    }
+    .nav-item.active .nav-link, .nav-item:hover .nav-link {
+        color: #ffffff;
+    }
+}
+
+/*----------------------Body style---------------------*/
+#bodycolor, %bodyText{
+  font-size: 16px;
+  color:$MyColor;
+  height: auto;
+}
+#seoulcolor{
+  @extend %bodyText;
+  background-color: #e6b8b1;
+}
+#vallettacolor{
+  @extend %bodyText;
+  background-color: #e3e0b6;
+}
+#Santorinicolor{
+  @extend %bodyText;
+  background-color: #b6e3e2;
+}
+
+.mycontent{
+
+  padding-top: 0px;
+  margin:1% 5%;
+
+  .pictureRatios{
+    max-width:100%;
+        height:auto;
+  }
+   table {
+
+     width:100%;
+
+     th, td{
+       border: 1px solid black;
+       border-collapse: collapse;
+       padding: 15px;
+       text-align: left;
+       width: 25% ;
+       padding: 9px;
+     }
+
+   }
+
+}
+
+ /* Create two equal columns that floats next to each other */
+ .column {
+   float: left;
+   width: 50%;
+   padding: 10px;
+ }
+ /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+ @media screen and (max-width: 500px) {
+   .column {
+     width: 100%;
+   }
+   h1{
+     font-size: 10px;
+   }
+ }

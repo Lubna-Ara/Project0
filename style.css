@@ -1,0 +1,66 @@
+/*----------------------header style---------------------*/
+#myheader {
+  background-image: url(pictures/header.jpg);
+  background-size: cover;
+  background-position: center top;
+  margin-bottom: 0px; }
+  #myheader h1 {
+    padding-left: 35px;
+    color: #4d4f52; }
+
+/*----------------------Navbar style--------------------*/
+.navbar-custom {
+  background-color: #4d4f52; }
+  .navbar-custom .navbar-nav {
+    padding-left: 40px; }
+    .navbar-custom .navbar-nav .nav-link {
+      color: rgba(255, 255, 255, 0.5); }
+  .navbar-custom .nav-item.active .nav-link, .navbar-custom .nav-item:hover .nav-link {
+    color: #ffffff; }
+
+/*----------------------Body style---------------------*/
+#bodycolor, #seoulcolor, #vallettacolor, #Santorinicolor {
+  font-size: 16px;
+  color: #4d4f52;
+  height: auto; }
+
+#seoulcolor {
+  background-color: #e6b8b1; }
+
+#vallettacolor {
+  background-color: #e3e0b6; }
+
+#Santorinicolor {
+  background-color: #b6e3e2; }
+
+.mycontent {
+  padding-top: 0px;
+  margin: 1% 5%; }
+  .mycontent .pictureRatios {
+    max-width: 100%;
+    height: auto; }
+  .mycontent table {
+    width: 100%; }
+    .mycontent table th, .mycontent table td {
+      border: 1px solid black;
+      border-collapse: collapse;
+      padding: 15px;
+      text-align: left;
+      width: 25%;
+      padding: 9px; }
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px; }
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%; }
+
+  h1 {
+    font-size: 10px; } }
+
+/*# sourceMappingURL=style.css.map */
